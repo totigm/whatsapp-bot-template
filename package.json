@@ -1,7 +1,7 @@
 {
-    "name": "typescript-template",
+    "name": "whatsapp-bot-template",
     "version": "0.0.1",
-    "description": "This is a template for creating Typescript projects",
+    "description": "This is a template for creating WhatsApp bots",
     "main": "dist/index.js",
     "bin": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -38,7 +38,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/totigm/typescript-template.git"
+        "url": "git+https://github.com/totigm/whatsapp-bot-template.git"
     },
     "keywords": [
         "typescript",
@@ -47,7 +47,7 @@
     "author": "Toti Muñoz",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/totigm/typescript-template/issues"
+        "url": "https://github.com/totigm/whatsapp-bot-template/issues"
     },
-    "homepage": "https://github.com/totigm/typescript-template#readme"
+    "homepage": "https://github.com/totigm/whatsapp-bot-template#readme"
 }

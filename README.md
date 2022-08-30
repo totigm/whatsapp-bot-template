@@ -1,8 +1,8 @@
-# Typescript Template
+# WhatsApp bot template
 
-This is a template for creating Typescript projects.
+This is a template for creating WhatsApp bots.
 
-This template will help you start a Typescript project without needing to worry about any configuration.
+This template will help you start a WhatsApp bot without needing to worry about any configuration.
 
 ## 📋 Prerequisites
 
