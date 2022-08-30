@@ -57,6 +57,13 @@ Runs both the linter and Prettier and logs every error and warning to the consol
 
 > _`yarn check:fix` and `npm run check:fix` fix every autofixable error/warning._
 
+## 🚀 Deploying
+
+A normal Dockerfile for a Node.js app won't work for this bot, as the [whatsapp-web.js](https://wwebjs.dev) library uses Puppeteer, and needs Chromium to run.\
+This project's [Dockerfile](./Dockerfile) handles every installation, and sets the whole environment needed for the bot to run and be authenticated.
+
+If the Docker image is built in a directory that has a `.wwebjs_auth` folder, it will use that file to authenticate and the container will start the bot without further authentication. If not, a QR code will be logged to the console and the user will have to scan it to authenticate.
+
 ## 🐳 Docker
 
 You can use [Docker](https://www.docker.com) to run your app. This project has a multi-stage build process so your final image doesn't have any TypeScript files nor dev dependencies, resulting in a smaller image size.
