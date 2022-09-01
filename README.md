@@ -2,7 +2,8 @@
 
 This is a template for creating WhatsApp bots.
 
-This template will help you start a WhatsApp bot without needing to worry about any configuration.
+This template has everything set up for you to create a WhatsApp bot, so you can start coding your bot right away, without needing to worry about any configuration.\
+It has TypeScript, Docker, ESLint, and Prettier already configured, so you have a nice developer experience and a production-ready bot.
 
 ## 📋 Prerequisites
 
